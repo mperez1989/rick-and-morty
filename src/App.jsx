@@ -83,8 +83,6 @@ function App() {
         <>
           <LocationInfo location={location} />
 
-          {/* {Navegación de residentes} */}
-
         {!isLoading && !hasError && location?.residents.length > 0 && (
           <div className='centered__container'>
             <div className='resident__navigation'>
@@ -111,8 +109,6 @@ function App() {
             </div>
           </div>
         )}
-
-        {/* {Contenedor de imagenes} */}
             <div className='resident__conteiner'>
               {renderImages()}
             </div>
