@@ -9,6 +9,14 @@ html {
 body {
     background-color: rgb(0, 255, 238);
 }
+button {
+    outline: none;
+    border: none;
+}
+input {
+    outline: none;
+    border: none;
+}
 
 @media(min-width: 500px) {
     .resident__conteiner {
@@ -23,10 +31,7 @@ body {
     .card__location {
         width: 45%;
     }
-    .main__form {
-        position: absolute;
-        top: 130px;
-    }
+    
 }
 
 @media(min-width: 800px) {
